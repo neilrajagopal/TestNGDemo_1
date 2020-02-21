@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="New Tours" verbose="2" >
+  <test name="Login" >
+    <classes>
+       <class name="testpack.TestNGAdditional" />
+    </classes>
+  </test>
+
+ <test name="Logout" >
+    <classes>
+       <class name="testpack.TestNGAdditional" />
+    </classes>
+  </test>
+  
+ </suite>

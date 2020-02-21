@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="New Tours" duration-ms="237" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:13Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="31" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+      <class name="testpack.TestNGAdditional">
+        <test-method status="PASS" signature="demoClass()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoClass" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoClass -->
+        <test-method status="PASS" signature="demoBfr()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoBfr" is-config="true" duration-ms="1" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBfr -->
+        <test-method status="PASS" signature="demoTest2()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoTest2" duration-ms="4" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest2 -->
+        <test-method status="PASS" signature="demoAft()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoAft" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAft -->
+        <test-method status="PASS" signature="demoTest1()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoTest1" duration-ms="3" started-at="2020-02-21T01:36:12Z" depends-on-methods="testpack.TestNGAdditional.demoTest2" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+        <test-method status="PASS" signature="demoBfr()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoBfr" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBfr -->
+        <test-method status="PASS" signature="demoAftClass()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoAftClass" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftClass -->
+        <test-method status="PASS" signature="demoAft()[pri:0, instance:testpack.TestNGAdditional@57d5872c]" name="demoAft" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAft -->
+      </class> <!-- testpack.TestNGAdditional -->
+    </test> <!-- Login -->
+    <test name="Logout" duration-ms="9" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:13Z">
+      <class name="testpack.TestNGAdditional">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="demoClass()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoClass" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoClass -->
+        <test-method status="PASS" signature="demoTest2()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoTest2" duration-ms="1" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest2 -->
+        <test-method status="PASS" signature="demoBfr()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoBfr" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBfr -->
+        <test-method status="PASS" signature="demoAft()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoAft" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAft -->
+        <test-method status="PASS" signature="demoTest1()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoTest1" duration-ms="2" started-at="2020-02-21T01:36:12Z" depends-on-methods="testpack.TestNGAdditional.demoTest2" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+        <test-method status="PASS" signature="demoBfr()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoBfr" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:12Z" finished-at="2020-02-21T01:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBfr -->
+        <test-method status="PASS" signature="demoAft()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoAft" is-config="true" duration-ms="1" started-at="2020-02-21T01:36:13Z" finished-at="2020-02-21T01:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAft -->
+        <test-method status="PASS" signature="demoAftClass()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="demoAftClass" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:13Z" finished-at="2020-02-21T01:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftClass -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:testpack.TestNGAdditional@5d740a0f]" name="aftSuite" is-config="true" duration-ms="0" started-at="2020-02-21T01:36:13Z" finished-at="2020-02-21T01:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- testpack.TestNGAdditional -->
+    </test> <!-- Logout -->
+  </suite> <!-- New Tours -->
+</testng-results>
