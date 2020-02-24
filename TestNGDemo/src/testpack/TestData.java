@@ -9,7 +9,9 @@ public class TestData {
 	  public static Object[][] dp() {
 	    return new Object[][] {
 	      new Object[] {"Welcome: Mercury Tour", "mercury", "mercury", "oneway" },
-	      new Object[] {"Welcome: Mercury Tour", "test", "Test", "oneway" },
+	      new Object[] {"Welcome: Mercury Tour", "mercury", "mercury", "oneway" },
+
+		new Object[] {"Welcome: Mercury Tour", "test", "Test", "oneway" },
 	    };
 	  }
 
