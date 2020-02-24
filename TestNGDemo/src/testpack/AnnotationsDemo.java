@@ -19,6 +19,7 @@ public class AnnotationsDemo {
 	
   @Test(dataProvider = "dp", dataProviderClass = TestData.class)
   public void c(String expTitle, String UserName, String Password, String tripType) {
+	  //testing
 	  	Assert.assertEquals(driver.getTitle(), expTitle);
 		driver.findElement(By.name("userName")).sendKeys(UserName);
 		driver.findElement(By.name("password")).sendKeys(Password);
